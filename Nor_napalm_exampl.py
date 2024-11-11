@@ -17,9 +17,9 @@ if __name__ == "__main__":
  inventory={
  "plugin": "SimpleInventory",
  "options": {
- "host_file": "inventory/hosts.yml",
- "group_file": "inventory/groups.yml",
- "defaults_file": "inventory/defaults.yml"
+ "host_file": "hosts.yml",
+ "group_file": "groups.yml",
+ "defaults_file": "defaults.yml"
  }
  },
  dry_run=True,
